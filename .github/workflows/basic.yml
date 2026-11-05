@@ -1,0 +1,13 @@
+name: Basic GHA pipeline
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  basic:
+    runs-on: wsl-linux
+
+    steps:
+      - name: Basic GHA pipeline
+        run: echo "Basic GitHub Action Pipeline"
